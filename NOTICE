@@ -1,0 +1,7 @@
+QA License Scanner
+Copyright (c) 2026 Gerard Sala
+Licensed under the MIT License. See LICENSE.
+
+This project uses only the Node.js standard library at runtime.
+Node.js is a runtime dependency, not bundled. See THIRD-PARTY-NOTICES.md
+for runtime and development dependencies.

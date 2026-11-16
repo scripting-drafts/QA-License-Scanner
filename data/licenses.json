@@ -1,0 +1,218 @@
+{
+  "policy": {
+    "allowed": [
+      "0BSD",
+      "Apache-2.0",
+      "BSD-2-Clause",
+      "BSD-3-Clause",
+      "CC0-1.0",
+      "ISC",
+      "MIT",
+      "PSF-2.0",
+      "Unlicense",
+      "Zlib",
+      "curl",
+      "LicenseRef-Public-Domain"
+    ],
+    "review": [
+      "CDDL-1.0",
+      "EPL-2.0",
+      "LGPL-2.1-only",
+      "LGPL-2.1-or-later",
+      "LGPL-3.0-only",
+      "LGPL-3.0-or-later",
+      "MPL-2.0"
+    ],
+    "blocked": [
+      "AGPL-3.0-only",
+      "AGPL-3.0-or-later",
+      "BUSL-1.1",
+      "GPL-2.0-only",
+      "GPL-2.0-or-later",
+      "GPL-3.0-only",
+      "GPL-3.0-or-later",
+      "SSPL-1.0",
+      "UNKNOWN",
+      "UNLICENSED"
+    ]
+  },
+  "aliases": {
+    "Apache 2": "Apache-2.0",
+    "Apache 2.0": "Apache-2.0",
+    "Apache License 2.0": "Apache-2.0",
+    "Apache License, Version 2.0": "Apache-2.0",
+    "BSD 2-Clause": "BSD-2-Clause",
+    "BSD 3-Clause": "BSD-3-Clause",
+    "BSD-2": "BSD-2-Clause",
+    "BSD-3": "BSD-3-Clause",
+    "Expat": "MIT",
+    "GPL-2": "GPL-2.0-only",
+    "GPL-2.0": "GPL-2.0-only",
+    "GPL-3": "GPL-3.0-only",
+    "GPL-3.0": "GPL-3.0-only",
+    "GPLv2": "GPL-2.0-only",
+    "GPLv3": "GPL-3.0-only",
+    "ISC License": "ISC",
+    "LGPL-2.1": "LGPL-2.1-only",
+    "LGPL-2.1+": "LGPL-2.1-or-later",
+    "LGPL-3.0": "LGPL-3.0-only",
+    "LGPL-3.0+": "LGPL-3.0-or-later",
+    "MIT License": "MIT",
+    "MPL 2.0": "MPL-2.0",
+    "Proprietary": "UNLICENSED",
+    "Public Domain": "LicenseRef-Public-Domain",
+    "Python Software Foundation License": "PSF-2.0",
+    "The Unlicense": "Unlicense",
+    "UNLICENSED": "UNLICENSED",
+    "Unknown": "UNKNOWN"
+  },
+  "systemLibraries": {
+    "cjson": {
+      "name": "cJSON",
+      "license": "MIT",
+      "url": "https://github.com/DaveGamble/cJSON"
+    },
+    "libbpf": {
+      "name": "libbpf",
+      "license": "LGPL-2.1-only OR BSD-2-Clause",
+      "url": "https://github.com/libbpf/libbpf"
+    },
+    "libcjson": {
+      "name": "cJSON",
+      "license": "MIT",
+      "url": "https://github.com/DaveGamble/cJSON"
+    },
+    "libcurl": {
+      "name": "curl",
+      "license": "curl",
+      "url": "https://curl.se/docs/copyright.html"
+    },
+    "libelf": {
+      "name": "libelf",
+      "license": "LGPL-2.1-or-later",
+      "url": "https://sourceware.org/elfutils/"
+    },
+    "libmicrohttpd": {
+      "name": "libmicrohttpd",
+      "license": "LGPL-2.1-or-later",
+      "url": "https://www.gnu.org/software/libmicrohttpd/"
+    },
+    "libpcre2-8": {
+      "name": "PCRE2",
+      "license": "BSD-3-Clause",
+      "url": "https://www.pcre.org/"
+    },
+    "libssl": {
+      "name": "OpenSSL",
+      "license": "Apache-2.0",
+      "url": "https://www.openssl.org/source/license.html"
+    },
+    "libsystemd": {
+      "name": "systemd",
+      "license": "LGPL-2.1-or-later",
+      "url": "https://github.com/systemd/systemd"
+    },
+    "openssl": {
+      "name": "OpenSSL",
+      "license": "Apache-2.0",
+      "url": "https://www.openssl.org/source/license.html"
+    },
+    "sqlite3": {
+      "name": "SQLite",
+      "license": "LicenseRef-Public-Domain",
+      "url": "https://www.sqlite.org/copyright.html"
+    },
+    "zlib": {
+      "name": "zlib",
+      "license": "Zlib",
+      "url": "https://zlib.net/"
+    }
+  },
+  "licenseFileNames": [
+    "LICENSE",
+    "LICENSE.txt",
+    "LICENSE.md",
+    "LICENCE",
+    "LICENCE.txt",
+    "COPYING",
+    "COPYING.txt",
+    "COPYRIGHT"
+  ],
+  "licenseSignatures": [
+    {
+      "id": "MIT",
+      "patterns": [
+        "Permission is hereby granted, free of charge, to any person obtaining a copy",
+        "THE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND"
+      ]
+    },
+    {
+      "id": "Apache-2.0",
+      "patterns": [
+        "Apache License\\s+Version 2\\.0",
+        "Licensed under the Apache License, Version 2\\.0"
+      ]
+    },
+    {
+      "id": "BSD-3-Clause",
+      "patterns": [
+        "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met",
+        "Neither the name of .* nor the names of its contributors may be used to endorse"
+      ]
+    },
+    {
+      "id": "BSD-2-Clause",
+      "patterns": [
+        "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met"
+      ]
+    },
+    {
+      "id": "ISC",
+      "patterns": [
+        "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted"
+      ]
+    },
+    {
+      "id": "GPL-2.0-only",
+      "patterns": [
+        "GNU GENERAL PUBLIC LICENSE\\s+Version 2"
+      ]
+    },
+    {
+      "id": "GPL-3.0-only",
+      "patterns": [
+        "GNU GENERAL PUBLIC LICENSE\\s+Version 3"
+      ]
+    },
+    {
+      "id": "LGPL-2.1-or-later",
+      "patterns": [
+        "GNU LESSER GENERAL PUBLIC LICENSE\\s+Version 2\\.1"
+      ]
+    },
+    {
+      "id": "LGPL-3.0-or-later",
+      "patterns": [
+        "GNU LESSER GENERAL PUBLIC LICENSE\\s+Version 3"
+      ]
+    },
+    {
+      "id": "MPL-2.0",
+      "patterns": [
+        "Mozilla Public License Version 2\\.0"
+      ]
+    },
+    {
+      "id": "Unlicense",
+      "patterns": [
+        "This is free and unencumbered software released into the public domain"
+      ]
+    },
+    {
+      "id": "CC0-1.0",
+      "patterns": [
+        "CC0 1\\.0 Universal"
+      ]
+    }
+  ]
+}

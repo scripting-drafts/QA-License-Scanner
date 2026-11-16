@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "product": "QA License Scanner",
+  "spdx": "MIT",
+  "copyright": "Copyright (c) 2026 Gerard Sala",
+  "source": "https://github.com/scripting-drafts/QA-License-Scanner",
+  "homepage": "https://github.com/scripting-drafts/QA-License-Scanner",
+  "lastReviewed": "2026-11-16",
+  "reviewedVersion": "0.1.0",
+  "reviewedComponents": {
+    "nodejs": "18+",
+    "qa-dashboard": "0.4.0",
+    "qa-sentinels": "1.2.0",
+    "qa-siem": "1.1.0"
+  },
+  "components": [
+    {
+      "id": "qa-license-scanner",
+      "name": "QA License Scanner",
+      "version": "0.1.0",
+      "license": "MIT",
+      "scope": "project"
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "version": "18+",
+      "license": "MIT",
+      "scope": "runtime",
+      "url": "https://nodejs.org/"
+    },
+    {
+      "id": "qa-dashboard",
+      "name": "QA Dashboard",
+      "version": "0.4.0",
+      "license": "MIT",
+      "scope": "companion",
+      "url": "https://github.com/scripting-drafts/QA-Dashboard"
+    },
+    {
+      "id": "qa-sentinels",
+      "name": "QA Sentinels",
+      "version": "1.2.0",
+      "license": "MIT",
+      "scope": "companion",
+      "url": "https://github.com/scripting-drafts/QA-Sentinels"
+    },
+    {
+      "id": "qa-siem",
+      "name": "QA SIEM",
+      "version": "1.1.0",
+      "license": "MIT",
+      "scope": "companion",
+      "url": "https://github.com/scripting-drafts/QA-SIEM"
+    }
+  ],
+  "documents": [
+    {
+      "id": "license",
+      "label": "MIT License",
+      "path": "LICENSE",
+      "kind": "text"
+    },
+    {
+      "id": "third-party",
+      "label": "Third-party notices",
+      "path": "THIRD-PARTY-NOTICES.md",
+      "kind": "text"
+    },
+    {
+      "id": "spec",
+      "label": "Legal manifest specification",
+      "path": "docs/SPEC.md",
+      "kind": "text"
+    },
+    {
+      "id": "policy",
+      "label": "License policy",
+      "path": "docs/POLICY.md",
+      "kind": "text"
+    },
+    {
+      "id": "privacy",
+      "label": "Privacy and data handling",
+      "path": "docs/PRIVACY.md",
+      "kind": "text"
+    },
+    {
+      "id": "contributions",
+      "label": "Contributing and DCO",
+      "path": "CONTRIBUTING.md",
+      "kind": "text"
+    },
+    {
+      "id": "security",
+      "label": "Security policy",
+      "path": "SECURITY.md",
+      "kind": "text"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "licensing",
+      "category": "licensing",
+      "status": "reviewed",
+      "date": "2026-11-16",
+      "note": "MIT LICENSE, package metadata, and third-party notices are present."
+    },
+    {
+      "id": "distribution",
+      "category": "distribution",
+      "status": "reviewed",
+      "date": "2026-11-16",
+      "note": "Source-only project; no bundled binaries or runtime npm dependencies."
+    },
+    {
+      "id": "privacy",
+      "category": "privacy",
+      "status": "reviewed",
+      "date": "2026-11-16",
+      "note": "Offline; no telemetry or network access; reports use relative paths."
+    },
+    {
+      "id": "export",
+      "category": "export",
+      "status": "reviewed",
+      "date": "2026-11-16",
+      "note": "No cryptographic functionality."
+    },
+    {
+      "id": "trademark",
+      "category": "trademark",
+      "status": "not-applicable",
+      "date": "2026-11-16",
+      "note": "No trademark registration claimed; third-party names are descriptive."
+    },
+    {
+      "id": "contributions",
+      "category": "contributions",
+      "status": "reviewed",
+      "date": "2026-11-16",
+      "note": "Inbound=outbound MIT with DCO sign-off."
+    },
+    {
+      "id": "accessibility",
+      "category": "accessibility",
+      "status": "reviewed",
+      "date": "2026-11-16",
+      "note": "Static HTML report uses semantic headings, tables, and contrast-aware CSS."
+    }
+  ]
+}

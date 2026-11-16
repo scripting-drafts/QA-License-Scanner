@@ -1,0 +1,23 @@
+{
+  "name": "qa-license-scanner",
+  "productName": "QA License Scanner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Modular third-party license scanner and own-product compliance register",
+  "license": "MIT",
+  "author": "Gerard Sala",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scripting-drafts/QA-License-Scanner.git"
+  },
+  "homepage": "https://github.com/scripting-drafts/QA-License-Scanner",
+  "bin": {
+    "qa-license-scanner": "bin/qa-license-scanner"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
