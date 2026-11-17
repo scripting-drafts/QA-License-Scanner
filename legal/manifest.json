@@ -5,12 +5,13 @@
   "copyright": "Copyright (c) 2026 Gerard Sala",
   "source": "https://github.com/scripting-drafts/QA-License-Scanner",
   "homepage": "https://github.com/scripting-drafts/QA-License-Scanner",
-  "lastReviewed": "2026-11-16",
+  "lastReviewed": "2026-11-17",
   "reviewedVersion": "0.1.0",
   "reviewedComponents": {
+    "qa-license-scanner": "0.1.0",
     "nodejs": "18+",
-    "qa-dashboard": "0.4.0",
-    "qa-sentinels": "1.2.0"
+    "qa-dashboard": "0.5.9",
+    "qa-sentinels": "1.3.0"
   },
   "components": [
     {
@@ -31,7 +32,7 @@
     {
       "id": "qa-dashboard",
       "name": "QA Dashboard",
-      "version": "0.4.0",
+      "version": "0.5.9",
       "license": "MIT",
       "scope": "companion",
       "url": "https://github.com/scripting-drafts/QA-Dashboard"
@@ -39,7 +40,7 @@
     {
       "id": "qa-sentinels",
       "name": "QA Sentinels",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "license": "MIT",
       "scope": "companion",
       "url": "https://github.com/scripting-drafts/QA-Sentinels"
@@ -93,6 +94,24 @@
       "id": "security",
       "label": "Security policy",
       "path": "SECURITY.md",
+      "kind": "text"
+    },
+    {
+      "id": "app-manifest",
+      "label": "Host integration manifest",
+      "path": "app.manifest.json",
+      "kind": "text"
+    },
+    {
+      "id": "attach-guide",
+      "label": "Host attachment guide",
+      "path": "docs/ATTACH.md",
+      "kind": "text"
+    },
+    {
+      "id": "modules-guide",
+      "label": "Scanner module contract",
+      "path": "docs/MODULES.md",
       "kind": "text"
     }
   ],

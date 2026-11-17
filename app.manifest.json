@@ -1,0 +1,73 @@
+{
+  "apiVersion": 1,
+  "id": "qa-license-scanner",
+  "name": "QA License Scanner",
+  "version": "0.1.0",
+  "kind": "scanner",
+  "description": "Modular third-party license scanner and own-product compliance register.",
+  "entrypoints": {
+    "cli": "bin/qa-license-scanner",
+    "module": "src/app.js",
+    "rpc": "qa-license-scanner rpc --workspace <dir>"
+  },
+  "protocol": {
+    "type": "json-lines",
+    "transport": "stdio",
+    "apiVersion": 1,
+    "methods": [
+      "info",
+      "modules",
+      "policy",
+      "scan",
+      "validate",
+      "suite",
+      "report"
+    ]
+  },
+  "capabilities": [
+    "info",
+    "modules",
+    "policy",
+    "scan",
+    "validate",
+    "suite",
+    "report"
+  ],
+  "reportFormats": [
+    "json",
+    "md",
+    "html"
+  ],
+  "ui": {
+    "mode": "host",
+    "suggestedWindow": {
+      "width": 1020,
+      "height": 780
+    },
+    "sections": [
+      "summary",
+      "components",
+      "checks",
+      "notes",
+      "export"
+    ]
+  },
+  "host": {
+    "integration": "optional",
+    "qaDashboard": ">=0.4.0",
+    "workspaceBoundary": true,
+    "rendererSafe": true
+  },
+  "security": {
+    "network": false,
+    "shell": false,
+    "reads": [
+      "project metadata",
+      "license files",
+      "legal manifests"
+    ],
+    "writes": [
+      "user-selected report output"
+    ]
+  }
+}

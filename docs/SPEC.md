@@ -62,6 +62,20 @@ review should be reported as stale by the product's register.
 The scanner's `files` module also reads valid manifests and adds their declared
 components to scan results with confidence `declared`.
 
+## Application layer
+
+The scanner exposes a reusable application facade in `src/app.js` and a
+machine-readable host contract in `app.manifest.json`:
+
+- `createApp({ workspace })` returns `info`, `modules`, `policy`, `scan`,
+  `validate`, `suite`, `report`, and render helpers.
+- `qa-license-scanner rpc --workspace DIR` serves the same methods over
+  newline-delimited JSON on stdio.
+- `apiVersion` is independent of the product version. Additive methods stay
+  within the same API version.
+
+See `docs/ATTACH.md` for the QA Dashboard attachment sketch.
+
 ## Cross-suite check
 
 Run the suite check from a directory containing the QA repositories:

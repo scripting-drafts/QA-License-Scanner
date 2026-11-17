@@ -40,6 +40,14 @@ library map, license file names, and license signatures.
 | `c` | Makefile, CMake, Meson, pkg-config names | Maps known system libraries; unmapped names are notes. |
 | `files` | License files, SPDX headers, `legal/manifest.json` | Skips symlinks, ignored directories, and files over 512 KiB. |
 
+## Application layer
+
+The module registry is wrapped by `src/app.js`. The facade is the only supported
+host API; it adds workspace enforcement, policy loading, report rendering, and
+structured errors. `src/rpc.js` exposes the facade over JSON-lines stdio for a
+future QA Dashboard subprocess integration. Hosts must not import individual
+module files directly.
+
 ## Adding a module
 
 1. Add `src/modules/<id>.js` with the contract above.
