@@ -11,7 +11,7 @@
     "qa-license-scanner": "0.1.0",
     "nodejs": "18+",
     "qa-dashboard": "0.5.9",
-    "qa-sentinels": "1.3.0"
+    "qa-sentinels": "1.4.1"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "qa-sentinels",
       "name": "QA Sentinels",
-      "version": "1.3.0",
+      "version": "1.4.1",
       "license": "MIT",
       "scope": "companion",
       "url": "https://github.com/scripting-drafts/QA-Sentinels"
